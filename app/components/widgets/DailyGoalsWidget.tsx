@@ -6,10 +6,8 @@ type Goal = { id: string; title: string; completed: boolean; date: string };
 
 export default function DailyGoalsWidget({
   initialGoals,
-  today: _today,
 }: {
   initialGoals: Goal[];
-  today: string;
 }) {
   const [goals, setGoals] = useState<Goal[]>(initialGoals);
   const [input, setInput] = useState("");

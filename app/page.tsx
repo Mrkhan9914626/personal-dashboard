@@ -55,7 +55,7 @@ export default async function DashboardPage() {
         <div className="md:col-span-2 xl:col-span-2">
           <TodoWidget initialTasks={tasks} />
         </div>
-        <DailyGoalsWidget initialGoals={goals} today={today} />
+        <DailyGoalsWidget initialGoals={goals} />
 
         {/* Row 3: Quick Links (2 cols) | Quote */}
         <div className="md:col-span-2 xl:col-span-2">
