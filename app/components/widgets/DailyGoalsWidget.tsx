@@ -6,7 +6,7 @@ type Goal = { id: string; title: string; completed: boolean; date: string };
 
 export default function DailyGoalsWidget({
   initialGoals,
-  today,
+  today: _today,
 }: {
   initialGoals: Goal[];
   today: string;
